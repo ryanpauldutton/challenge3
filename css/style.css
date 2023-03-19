@@ -1,0 +1,239 @@
+* {
+    font-family: pangramSansReg;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-family: monumentReg;
+    font-size: 4.2rem;
+}
+
+h2 {
+    font-family: monumentReg;
+    font-size: 3.2rem;
+}
+
+h3 {
+    font-size: 2.7rem;
+}
+
+h4 {
+    font-size: 1.8rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.2rem;
+}
+
+a {
+    z-index: 100;
+    color: black !important;
+    font-family: pangramSansReg;
+    font-size: calc(16px + 0.3vw);
+}
+
+.container {
+    width: 100vw !important;
+    margin: 0 !important;
+}
+
+.row {
+    width: 100vw !important;
+}
+
+@media only screen and (max-width:600px) {}
+
+h1 {
+    font-family: monumentReg;
+    font-size: 1rem;
+}
+
+h2 {
+    font-family: monumentReg;
+    font-size: 2.2rem;
+}
+
+h3 {
+    font-size: 1.7rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.2rem;
+}
+
+
+a:hover {
+    color: aqua !important;
+    font-family: monumentLight;
+}
+
+.background {
+    background-color: brown;
+}
+
+/* GENERIC CLASSES */
+.flex {
+    display: flex;
+}
+
+.flexcenter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.flexbetween {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* BUTTONS */
+.buttonLeft {
+    margin-right: 20px;
+}
+
+/* HEADER */
+header {
+    background-color: rgba(2, 2, 2, 0.3);
+    padding: 20px 5vw;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100px;
+    z-index: 100;
+}
+
+.listcenter {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    background-position: center;
+    background-image: url(../images/logo.svg);
+    background-size: contain;
+    height: 100;
+    width: 100px;
+    background-repeat: no-repeat;
+    z-index: 99999;
+}
+
+#herojumbo {
+    height: 100vh !important;
+    background-image: url(../images/pexels-alex-qian-2343475.jpg), linear-gradient(rgba(0,0,0,1),rgba(0,0,0,1));;
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* WORK */
+#work {
+    min-height: 100vh;
+    width: 100vw;
+    background-color: #7a7a7a;
+}
+
+.controlColour {
+    color: rgba(2, 2, 2, 0.7) !important;
+}
+
+.carouselHolder {
+    height: 70vh !important;
+    width: 100vw !important;
+}
+
+.bg {
+    background-color: aqua;
+}
+
+.carosuelOne {
+    display: flex;
+    background-image: url(../images/pexels-alex-qian-2343475.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: 50vw;
+}
+
+.border {
+    border-width: 1px;
+    border-color: black;
+}
+
+.workProject {
+    height: 500px;
+}
+ 
+.p1 { 
+    background-image: url(../images/pexels-elevate-1267359.jpg);
+    background-size: cover;
+    background-repeat: no repeat;
+}
+
+.p2 { 
+    background-image: url(../images/pexels-sean-whang-804269.jpg);
+    background-size: cover;
+    background-repeat: no repeat;
+}
+
+.p3 { 
+    background-image: url(../images/pexels-tranmautritam-251225.jpg);
+    background-size: cover;
+    background-repeat: no repeat;
+}
+
+.white-text{
+    color: white;
+}
+
+                    
+
+.workTitle {
+    padding-left: 5vw;
+}
+ 
+/* ABOUT */
+
+#about {
+    min-height: 70vh;
+    background-color: #7a7a7a;
+    color: white;
+    display: flex;
+    justify-items: center;
+}
+
+.about-image{
+    background-image: url(../images/Avatar.jpg);
+    background-size: cover;
+    background-color: #7a7a7a;
+    min-height: 70vh;
+    background-color: #7a7a7a;
+    background-position: center;
+}
+
+/* CONTACT */
+
+.contact {
+    padding: 20vh 5vw;
+    background-color: black;
+}
+
+.h-100 {
+    
+    width: 100vw !important;
+    height: 100vh !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    overflow: hidden;
+}

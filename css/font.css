@@ -1,0 +1,30 @@
+@font-face {
+    font-family: pangramSansReg;
+    src: url(./fonts/Pangram-Regular.woff);
+}
+
+
+@font-face {
+    font-family: pangramSansBold;
+    src: url(./fonts/Pangram-Bold.woff);
+}
+
+@font-face {
+    font-family: pangramSansBlack;
+    src: url(./fonts/Pangram-Black.woff);
+}
+
+@font-face {
+    font-family: monumentLight;
+    src: url(./fonts/MonumentExtended-Light.woff2);
+}
+
+@font-face {
+    font-family: monumentReg;
+    src: url(./fonts/MonumentExtended-Regular.woff2);
+}
+
+#herojumbo {
+    height: 100vh;
+    width: 100vw;
+}
